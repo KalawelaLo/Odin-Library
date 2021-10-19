@@ -1,0 +1,19 @@
+.card{
+    display: flex;
+    flex-direction: row;
+   
+}
+.form {
+    display: flex;
+}
+
+.card div{
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    background-color: aquamarine;
+    border: 5px;
+    border-color: black;
+    border-style:solid;
+}
