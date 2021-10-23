@@ -1,3 +1,15 @@
+body {
+    display: grid;
+    grid-column: auto;
+    grid-row: auto;
+    grid-template-columns: 1;
+    justify-content: center;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+
+
 .card{
     display: flex;
     flex-direction: row;
@@ -16,4 +28,8 @@
     border: 5px;
     border-color: black;
     border-style:solid;
+}
+
+.read div {
+    background-color: aqua;
 }
